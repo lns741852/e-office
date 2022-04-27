@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="com.xxxx.server.mapper.MenuMapper">
+<mapper namespace="com.cgpt.mapper.MenuMapper">
 
     <!-- 通用查询映射结果 -->
-    <resultMap id="BaseResultMap" type="com.xxxx.server.pojo.Menu">
+    <resultMap id="BaseResultMap" type="com.cgpt.pojo.Menu">
         <id column="id" property="id"/>
         <result column="url" property="url"/>
         <result column="path" property="path"/>
@@ -15,8 +15,9 @@
         <result column="parentId" property="parentId"/>
         <result column="enabled" property="enabled"/>
     </resultMap>
-    <resultMap id="Menus" type="com.xxxx.server.pojo.Menu" extends="BaseResultMap">
-        <collection property="children" ofType="com.xxxx.server.pojo.Menu">
+    
+    <resultMap id="Menus" type="com.cgpt.pojo.Menu" extends="BaseResultMap">
+        <collection property="children" ofType="com.cgpt.pojo.Menu">
             <id column="id2" property="id"/>
             <result column="url2" property="url"/>
             <result column="path2" property="path"/>
@@ -29,20 +30,20 @@
             <result column="enabled2" property="enabled"/>
         </collection>
     </resultMap>
-    <resultMap id="MenusWithRoles" type="com.xxxx.server.pojo.Menu" extends="BaseResultMap">
-        <collection property="roles" ofType="com.xxxx.server.pojo.Role">
+    <resultMap id="MenusWithRoles" type="com.cgpt.pojo.Menu" extends="BaseResultMap">
+        <collection property="roles" ofType="com.cgpt.pojo.Role">
             <id column="rid" property="id" />
             <result column="rname" property="name" />
             <result column="rnameZh" property="nameZh" />
         </collection>
     </resultMap>
-    <resultMap id="MenusWithChildren" type="com.xxxx.server.pojo.Menu" extends="BaseResultMap">
+    <resultMap id="MenusWithChildren" type="com.cgpt.pojo.Menu" extends="BaseResultMap">
         <id column="id1" property="id" />
         <result column="name1" property="name" />
-        <collection property="children" ofType="com.xxxx.server.pojo.Menu">
+        <collection property="children" ofType="com.cgpt.pojo.Menu">
             <id column="id2" property="id" />
             <result column="name2" property="name" />
-            <collection property="children" ofType="com.xxxx.server.pojo.Menu">
+            <collection property="children" ofType="com.cgpt.pojo.Menu">
                 <id column="id3" property="id" />
                 <result column="name3" property="name" />
             </collection>
@@ -55,7 +56,7 @@
         id, url, path, component, name, iconCls, keepAlive, requireAuth, parentId, enabled
     </sql>
 
-    <!--通过用户id获取菜单列表-->
+    <!--通過ID獲取菜單-->
     <select id="getMenusByAdminId" resultMap="Menus">
         select
             distinct m1.*,
@@ -67,7 +68,7 @@
             m2.name as name2,
             m2.parentId as parentId2,
             m2.requireAuth as requireAuth2,
-             m2.url as url2,
+            m2.url as url2,
             m2.path as path2
         from
             t_menu m1,
