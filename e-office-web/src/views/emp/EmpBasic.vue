@@ -54,6 +54,7 @@
           </el-button>
         </div>
       </div>
+      <!--進階查詢-->
       <transition name="slide-fade">
         <div v-show="showAdvanceSearchVisible"
              style="border: 1px solid #409eff;border-radius: 5px;box-sizing:border-box;padding: 5px;margin: 10px 0px">
@@ -118,17 +119,20 @@
           </el-row>
           <el-row style="margin-top: 10px">
             <el-col :span="5">
-              所属部门:
+              所屬部門:
+              <!--彈出框-->
               <el-popover
                 placement="right"
-                title="请选择部门"
+                title="請選擇部門"
                 width="200"
                 trigger="manual"
                 v-model="popVisible2">
+                <!--:data為資料，:props定義屬性-->
                 <el-tree :data="allDeps" :props="defaultProps"
                          default-expand-all
                          @node-click="searchHandleNodeClick">
                 </el-tree>
+                <!--自訂輸入框-->
                 <div slot="reference"
                      style="width: 130px;display: inline-flex;
                         font-size: 13px;border: 1px solid #dedede;height: 24px;border-radius:
@@ -825,6 +829,7 @@
           beginDateScope: null
         }
       },
+      //進階查詢_所屬部門_選中
       searchHandleNodeClick(data) {
         this.inputDepName = data.name;
         this.searchValue.departmentId = data.id;
