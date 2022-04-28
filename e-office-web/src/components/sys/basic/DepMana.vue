@@ -15,10 +15,10 @@
       ref="tree"
     >
       <!--
-        node前端節點內容:filter-node-method
-        data後端資料內容:data
+        node前端節點內容:filter-node-method="filterNode"
+        data後端資料內容:data="deps"
       -->
-      <span
+      <div
         class="custom-tree-node"
         style="display: flex; justify-content: space-between; width: 100%"
         slot-scope="{ node, data }"
@@ -42,7 +42,7 @@
             刪除部門
           </el-button>
         </span>
-      </span>
+      </div>
     </el-tree>
     <!--添加-->
     <el-dialog title="添加部門" :visible.sync="dialogVisible" width="30%">
@@ -129,18 +129,19 @@ export default {
         //找到刪除對象
         if (d.id == id) {
           //刪除當前索引
-          deps.splice(i, 1);
-          //沒有父部門
+          deps.splice(i, 1);      
+          //不是父部門
           if (deps.length == 0) {
             p.parent = false;
           }
           return;
         } else {
+          //d=父部門
           this.removeDepFromDeps(d, d.children, id);
         }
       }
     },
-    //更新前端處理，deps目前結構，dep資料庫返回資料
+    //添加前端處理，deps目前結構，dep資料庫返回資料
     addDep2Deps(deps, dep) {
       //循環所有同級節點
       for (let i = 0; i < deps.length; i++) {
@@ -149,7 +150,7 @@ export default {
         if (d.id == dep.parentId) {
           //加入子節點
           d.children = d.children.concat(dep);
-          //有父部門
+          //是父部門
           if (d.children.length > 0) {
             d.parent = true;
           }
@@ -170,7 +171,7 @@ export default {
         }
       });
     },
-    //添加框
+    //顯示添加框
     showAddDepView(data) {
       this.pname = data.name;
       this.dep.parentId = data.id;
@@ -190,7 +191,7 @@ export default {
             this.deleteRequest("/system/basic/department/" + data.id).then(
               (resp) => {
                 if (resp) {
-                  //最上級部門沒有父部門所以傳null
+                  //最上級部門沒有父部門所以傳null，this.deps為所有部門
                   this.removeDepFromDeps(null, this.deps, data.id);
                 }
               }
@@ -204,7 +205,7 @@ export default {
           });
       }
     },
-    //節點展示，value:查詢參數，data:每個節點底下所有的數據
+    //展開節點，執行多次，value:查詢參數，data:每個節點的資料
     filterNode(value, data) {
       //返回所有數據
       if (!value) return true;

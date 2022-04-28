@@ -1,45 +1,8 @@
-<!--<template>
-  <div>
-    <div class="permissManaTool">
-      <el-input size="small" placeholder="請輸入角色英文名" v-model="role.name">
-        <template slot="prepend">ROLE_</template>
-      </el-input>
-      <el-input size="small" placheholder="請輸入角色中文名" v-model="role.nameZh" @keydown.enter.native="doAddRole"></el-input>
-      <el-button type="primary" size="small" icon="el-icon-plus" @click="doAddRole">添加角色</el-button>
-    </div>
-    <div class="permissManaMain">
-      <el-collapse v-model="activeName" accordion @change="change">
-        <el-collapse-item :title="r.nameZh" :name="r.id" v-for="(r,index) in roles" :key="index">
-          <el-card class="box-card">
-            <div slot="header" class="clearfix">
-              <span>可访问资源</span>
-              <el-button style="float: right;padding: 3px 0;color: #ff0000" icon="el-icon-delete"
-                         type="text" @click="doDeleteRole(r)"></el-button>
-            </div>
-            <div>
-              <el-tree
-                show-checkbox
-                node-key="id"
-                :key="index"
-                :default-checked-keys="selectedMenus"
-                :data="allMenus" :props="defaultProps"></el-tree>
-              <div style="display: flex;justify-content: flex-end">
-                <el-button @click="cancelUpdate">取消修改</el-button>
-                <el-button type="primary" @click="doUpdate(r.id,index)">確認修改</el-button>
-              </div>
-            </div>
-          </el-card>
-        </el-collapse-item>
-      </el-collapse>
-    </div>
-  </div>
-</template>-->
-
 <template>
   <div>
     <!--添加-->
     <div class="permissManaTool">
-      <el-input size="small" placeholder="請輸入角色英文" vmodel="role.name">
+      <el-input size="small" placeholder="請輸入角色英文" v-model="role.name">
         <!--自訂前墜-->
         <template slot="prepend">ROLE_</template>
       </el-input>
@@ -49,7 +12,7 @@
                  @click="doAddRole">添加角色
       </el-button>
     </div>
-    <!--角色手風琴-->
+    <!--角色摺疊面板-->
     <div class="permissManaMain">
       <el-collapse v-model="activeName" accordion @change="change">
         <el-collapse-item :title="r.nameZh" :name="r.id" v-for="(r,index) in roles" :key="index">
@@ -62,7 +25,7 @@
             </div>
             <!--
               1.樹狀權限菜單
-              2.props為response節點名稱和子節點名稱
+              2.props為response節點屬性名稱和子節點屬性名稱
               3.default-checked-keys為默認勾選內容
               4.加上key防止資料混亂
             -->
@@ -73,7 +36,8 @@
                 ref="tree"
                 :key="index"
                 :default-checked-keys="selectedMenus"
-                :data="allMenus" :props="defaultProps">
+                :data="allMenus" 
+                :props="defaultProps">
               </el-tree>
               <div style="display: flex;justify-content: flex-end">
                 <el-button @click="cancelUpdate">取消修改</el-button>

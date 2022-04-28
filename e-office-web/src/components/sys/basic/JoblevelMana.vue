@@ -126,11 +126,11 @@
     name: "JoblevelMana",
     data() {
       return {
+        jls: [],
         jl: {
           name: '',
           titleLevel: ''
         },
-        jls: [],
         updateJl: {
           name: '',
           titleLevel: '',
@@ -158,6 +158,7 @@
           cancelButtonText: '取消',
           type: 'warning'
         }).then(() => {
+          //拚串
           let ids = '?';
           this.multipleSelection.forEach(item => {
             ids += 'ids=' + item.id + '&';
@@ -175,6 +176,7 @@
           })
         })
       },
+      //將選中值以陣列儲存，每次選中都會更新
       handleSelectionChange(val) {
         this.multipleSelection = val;
       },
@@ -191,6 +193,7 @@
       },
       //顯示編輯框
       showEditView(data) {
+        //因為頁面關閉不刷因，防止傳入值被更改
         Object.assign(this.updateJl, data);
         this.dialogVisible = true;
       },
