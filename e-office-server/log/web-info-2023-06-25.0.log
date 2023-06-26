@@ -1,0 +1,527 @@
+2023-06-25 22:07:35.086 [main] INFO  com.cgpt.YebServerApplication - Starting YebServerApplication on DESKTOP-JGM0817 with PID 17584 (D:\workspace\e-office-master\e-office-server\target\classes started by Jay in D:\workspace\e-office-master\e-office-server)
+2023-06-25 22:07:35.089 [main] INFO  com.cgpt.YebServerApplication - No active profile set, falling back to default profiles: default
+2023-06-25 22:07:36.495 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-25 22:07:36.499 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-25 22:07:36.563 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 Redis repository interfaces.
+2023-06-25 22:07:37.969 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-06-25 22:07:37.979 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:07:37.979 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-25 22:07:37.979 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-06-25 22:07:38.103 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-25 22:07:38.104 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2935 ms
+2023-06-25 22:07:41.008 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2023-06-25 22:07:41.014 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2023-06-25 22:07:41.614 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-06-25 22:07:41.647 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2023-06-25 22:07:41.693 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2023-06-25 22:07:42.220 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/login'], []
+2023-06-25 22:07:42.220 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/logout'], []
+2023-06-25 22:07:42.220 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/ws/**'], []
+2023-06-25 22:07:42.220 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/css/**'], []
+2023-06-25 22:07:42.220 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/js/**'], []
+2023-06-25 22:07:42.220 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/index.html'], []
+2023-06-25 22:07:42.221 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='favicon.ico'], []
+2023-06-25 22:07:42.221 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2023-06-25 22:07:42.221 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/webjars/**'], []
+2023-06-25 22:07:42.221 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2023-06-25 22:07:42.221 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/v2/api-docs/**'], []
+2023-06-25 22:07:42.221 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/captcha'], []
+2023-06-25 22:07:42.252 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@69a3944, org.springframework.security.web.context.SecurityContextPersistenceFilter@659ac28c, org.springframework.security.web.header.HeaderWriterFilter@56d3af4d, org.springframework.security.web.authentication.logout.LogoutFilter@359a2c96, com.cgpt.config.jwt.JwtAuthenticationTokenFilter@1e50eb3f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@242ebd3b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2569afda, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4987142d, org.springframework.security.web.session.SessionManagementFilter@13cae908, org.springframework.security.web.access.ExceptionTranslationFilter@27aa7294, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@31ab75a5]
+2023-06-25 22:07:42.321 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:07:42.363 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-25 22:07:42.364 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-06-25 22:07:42.385 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-06-25 22:07:42.488 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-06-25 22:07:42.743 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateAdminUsingPUT_1
+2023-06-25 22:07:42.979 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllRolesUsingGET_1
+2023-06-25 22:07:43.004 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllPositionUsingGET_1
+2023-06-25 22:07:43.029 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSalaryUsingGET_1
+2023-06-25 22:07:43.047 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2023-06-25 22:07:43.047 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-06-25 22:07:43.048 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2023-06-25 22:07:43.070 [main] INFO  com.cgpt.YebServerApplication - Started YebServerApplication in 8.734 seconds (JVM running for 9.386)
+2023-06-25 22:07:50.272 [MessageBroker-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-06-25 22:08:12.759 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-25 22:08:12.759 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-25 22:08:12.774 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 15 ms
+2023-06-25 22:08:41.694 [MessageBroker-4] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 1, completed tasks = 6]
+2023-06-25 22:09:53.476 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2023-06-25 22:09:53.476 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-06-25 22:09:53.476 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2023-06-25 22:09:53.691 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2023-06-25 22:09:53.692 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2023-06-25 22:09:53.696 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2023-06-25 22:09:53.697 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2023-06-25 22:09:53.825 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-06-25 22:09:53.831 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-06-25 22:15:17.815 [main] INFO  com.cgpt.YebServerApplication - Starting YebServerApplication on DESKTOP-JGM0817 with PID 15096 (D:\workspace\e-office-master\e-office-server\target\classes started by Jay in D:\workspace\e-office-master\e-office-server)
+2023-06-25 22:15:17.821 [main] INFO  com.cgpt.YebServerApplication - No active profile set, falling back to default profiles: default
+2023-06-25 22:15:19.287 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-25 22:15:19.290 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-25 22:15:19.354 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 44ms. Found 0 Redis repository interfaces.
+2023-06-25 22:15:20.749 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-06-25 22:15:20.761 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:15:20.762 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-25 22:15:20.762 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-06-25 22:15:20.904 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-25 22:15:20.904 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3005 ms
+2023-06-25 22:15:23.941 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2023-06-25 22:15:23.948 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2023-06-25 22:15:24.496 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-06-25 22:15:24.530 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2023-06-25 22:15:24.576 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2023-06-25 22:15:25.108 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/login'], []
+2023-06-25 22:15:25.109 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/logout'], []
+2023-06-25 22:15:25.109 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/ws/**'], []
+2023-06-25 22:15:25.109 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/css/**'], []
+2023-06-25 22:15:25.109 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/js/**'], []
+2023-06-25 22:15:25.109 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/index.html'], []
+2023-06-25 22:15:25.109 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='favicon.ico'], []
+2023-06-25 22:15:25.109 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2023-06-25 22:15:25.109 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/webjars/**'], []
+2023-06-25 22:15:25.110 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2023-06-25 22:15:25.110 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/v2/api-docs/**'], []
+2023-06-25 22:15:25.110 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/captcha'], []
+2023-06-25 22:15:25.148 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@31e9d94f, org.springframework.security.web.context.SecurityContextPersistenceFilter@43b74979, org.springframework.security.web.header.HeaderWriterFilter@5d10df04, org.springframework.security.web.authentication.logout.LogoutFilter@3ffe74da, com.cgpt.config.jwt.JwtAuthenticationTokenFilter@19e2db7c, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@60688a97, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7c751692, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69a3944, org.springframework.security.web.session.SessionManagementFilter@7a2ffb0b, org.springframework.security.web.access.ExceptionTranslationFilter@73bcd9b4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@36f80ceb]
+2023-06-25 22:15:25.208 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:15:25.241 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-25 22:15:25.242 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-06-25 22:15:25.266 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-06-25 22:15:25.342 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-06-25 22:15:25.545 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateAdminUsingPUT_1
+2023-06-25 22:15:25.762 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllRolesUsingGET_1
+2023-06-25 22:15:25.781 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllPositionUsingGET_1
+2023-06-25 22:15:25.808 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSalaryUsingGET_1
+2023-06-25 22:15:25.831 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2023-06-25 22:15:25.832 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-06-25 22:15:25.833 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2023-06-25 22:15:25.858 [main] INFO  com.cgpt.YebServerApplication - Started YebServerApplication in 8.922 seconds (JVM running for 9.584)
+2023-06-25 22:15:28.077 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2023-06-25 22:15:28.078 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-06-25 22:15:28.078 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2023-06-25 22:15:28.447 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2023-06-25 22:15:28.448 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2023-06-25 22:15:28.453 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2023-06-25 22:15:28.453 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2023-06-25 22:15:28.487 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-0} closing ...
+2023-06-25 22:15:41.014 [main] INFO  com.cgpt.YebServerApplication - Starting YebServerApplication on DESKTOP-JGM0817 with PID 10820 (D:\workspace\e-office-master\e-office-server\target\classes started by Jay in D:\workspace\e-office-master\e-office-server)
+2023-06-25 22:15:41.019 [main] INFO  com.cgpt.YebServerApplication - No active profile set, falling back to default profiles: default
+2023-06-25 22:15:42.571 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-25 22:15:42.574 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-25 22:15:42.633 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 Redis repository interfaces.
+2023-06-25 22:15:43.997 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-06-25 22:15:44.008 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:15:44.008 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-25 22:15:44.009 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-06-25 22:15:44.162 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-25 22:15:44.163 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3034 ms
+2023-06-25 22:15:47.350 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2023-06-25 22:15:47.359 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2023-06-25 22:15:48.111 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-06-25 22:15:48.149 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2023-06-25 22:15:48.197 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2023-06-25 22:15:48.758 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/login'], []
+2023-06-25 22:15:48.759 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/logout'], []
+2023-06-25 22:15:48.759 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/ws/**'], []
+2023-06-25 22:15:48.759 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/css/**'], []
+2023-06-25 22:15:48.759 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/js/**'], []
+2023-06-25 22:15:48.759 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/index.html'], []
+2023-06-25 22:15:48.759 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='favicon.ico'], []
+2023-06-25 22:15:48.759 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2023-06-25 22:15:48.760 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/webjars/**'], []
+2023-06-25 22:15:48.760 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2023-06-25 22:15:48.760 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/v2/api-docs/**'], []
+2023-06-25 22:15:48.760 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/captcha'], []
+2023-06-25 22:15:48.797 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@19656e21, org.springframework.security.web.context.SecurityContextPersistenceFilter@3c205259, org.springframework.security.web.header.HeaderWriterFilter@5d08a65c, org.springframework.security.web.authentication.logout.LogoutFilter@17541204, com.cgpt.config.jwt.JwtAuthenticationTokenFilter@59c862af, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@20923380, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3810806c, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@614ae4eb, org.springframework.security.web.session.SessionManagementFilter@3c38e2bf, org.springframework.security.web.access.ExceptionTranslationFilter@694f0655, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@1bbfd42f]
+2023-06-25 22:15:48.874 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:15:48.913 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-25 22:15:48.915 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-06-25 22:15:48.941 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-06-25 22:15:49.046 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-06-25 22:15:49.325 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateAdminUsingPUT_1
+2023-06-25 22:15:49.631 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllRolesUsingGET_1
+2023-06-25 22:15:49.655 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllPositionUsingGET_1
+2023-06-25 22:15:49.683 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSalaryUsingGET_1
+2023-06-25 22:15:49.703 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2023-06-25 22:15:49.703 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-06-25 22:15:49.704 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2023-06-25 22:15:49.727 [main] INFO  com.cgpt.YebServerApplication - Started YebServerApplication in 9.618 seconds (JVM running for 10.285)
+2023-06-25 22:15:50.271 [MessageBroker-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-06-25 22:16:00.800 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-25 22:16:00.800 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-25 22:16:00.810 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 10 ms
+2023-06-25 22:16:13.225 [http-nio-8081-exec-5] INFO  com.cgpt.config.jwt.JwtAuthenticationTokenFilter - admin
+2023-06-25 22:16:13.225 [http-nio-8081-exec-6] INFO  com.cgpt.config.jwt.JwtAuthenticationTokenFilter - admin
+2023-06-25 22:16:21.717 [http-nio-8081-exec-10] INFO  com.cgpt.config.jwt.JwtAuthenticationTokenFilter - admin
+2023-06-25 22:16:31.916 [http-nio-8081-exec-1] INFO  com.cgpt.config.jwt.JwtAuthenticationTokenFilter - admin
+2023-06-25 22:16:41.368 [http-nio-8081-exec-9] INFO  com.cgpt.config.jwt.JwtAuthenticationTokenFilter - admin
+2023-06-25 22:16:48.200 [MessageBroker-2] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 15, active threads = 0, queued tasks = 0, completed tasks = 15], outboundChannel[pool size = 3, active threads = 0, queued tasks = 0, completed tasks = 3], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 3, completed tasks = 13]
+2023-06-25 22:17:13.237 [http-nio-8081-exec-2] INFO  com.cgpt.config.jwt.JwtAuthenticationTokenFilter - admin
+2023-06-25 22:17:22.527 [http-nio-8081-exec-9] INFO  com.cgpt.config.jwt.JwtAuthenticationTokenFilter - admin
+2023-06-25 22:17:22.796 [http-nio-8081-exec-10] INFO  com.cgpt.config.jwt.JwtAuthenticationTokenFilter - admin
+2023-06-25 22:21:24.308 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2023-06-25 22:21:24.309 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-06-25 22:21:24.309 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2023-06-25 22:21:24.531 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2023-06-25 22:21:24.532 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2023-06-25 22:21:24.536 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2023-06-25 22:21:24.536 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2023-06-25 22:21:24.688 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-06-25 22:21:24.694 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-06-25 22:21:28.415 [main] INFO  com.cgpt.YebServerApplication - Starting YebServerApplication on DESKTOP-JGM0817 with PID 11572 (D:\workspace\e-office-master\e-office-server\target\classes started by Jay in D:\workspace\e-office-master\e-office-server)
+2023-06-25 22:21:28.418 [main] INFO  com.cgpt.YebServerApplication - No active profile set, falling back to default profiles: default
+2023-06-25 22:21:29.821 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-25 22:21:29.825 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-25 22:21:29.879 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 38ms. Found 0 Redis repository interfaces.
+2023-06-25 22:21:31.239 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-06-25 22:21:31.249 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:21:31.250 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-25 22:21:31.250 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-06-25 22:21:31.409 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-25 22:21:31.409 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2908 ms
+2023-06-25 22:21:34.778 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2023-06-25 22:21:34.784 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2023-06-25 22:21:35.327 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-06-25 22:21:35.360 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2023-06-25 22:21:35.403 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2023-06-25 22:21:35.956 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/login'], []
+2023-06-25 22:21:35.956 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/logout'], []
+2023-06-25 22:21:35.956 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/ws/**'], []
+2023-06-25 22:21:35.956 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/css/**'], []
+2023-06-25 22:21:35.956 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/js/**'], []
+2023-06-25 22:21:35.956 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/index.html'], []
+2023-06-25 22:21:35.957 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='favicon.ico'], []
+2023-06-25 22:21:35.957 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2023-06-25 22:21:35.957 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/webjars/**'], []
+2023-06-25 22:21:35.957 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2023-06-25 22:21:35.957 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/v2/api-docs/**'], []
+2023-06-25 22:21:35.957 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/captcha'], []
+2023-06-25 22:21:35.993 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7a74672, org.springframework.security.web.context.SecurityContextPersistenceFilter@2569afda, org.springframework.security.web.header.HeaderWriterFilter@5c0f508b, org.springframework.security.web.authentication.logout.LogoutFilter@54ec8ab3, com.cgpt.config.jwt.JwtAuthenticationTokenFilter@4ad3969, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@70efdd18, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@53335328, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@35b79b1f, org.springframework.security.web.session.SessionManagementFilter@41433530, org.springframework.security.web.access.ExceptionTranslationFilter@5c46a957, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@67376bae]
+2023-06-25 22:21:36.051 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:21:36.083 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-25 22:21:36.084 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-06-25 22:21:36.104 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-06-25 22:21:36.185 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-06-25 22:21:36.398 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateAdminUsingPUT_1
+2023-06-25 22:21:36.624 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllRolesUsingGET_1
+2023-06-25 22:21:36.646 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllPositionUsingGET_1
+2023-06-25 22:21:36.671 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSalaryUsingGET_1
+2023-06-25 22:21:36.690 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2023-06-25 22:21:36.691 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-06-25 22:21:36.691 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2023-06-25 22:21:36.713 [main] INFO  com.cgpt.YebServerApplication - Started YebServerApplication in 9.076 seconds (JVM running for 9.744)
+2023-06-25 22:21:40.261 [MessageBroker-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-06-25 22:21:47.034 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-25 22:21:47.034 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-25 22:21:47.047 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 13 ms
+2023-06-25 22:21:47.164 [http-nio-8081-exec-1] INFO  com.cgpt.config.jwt.JwtAuthenticationTokenFilter - admin
+2023-06-25 22:22:35.407 [MessageBroker-8] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 6], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 3, completed tasks = 17]
+2023-06-25 22:23:37.556 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2023-06-25 22:23:37.557 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-06-25 22:23:37.557 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2023-06-25 22:23:37.766 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2023-06-25 22:23:37.767 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2023-06-25 22:23:37.770 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2023-06-25 22:23:37.771 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2023-06-25 22:23:37.903 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-06-25 22:23:37.908 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-06-25 22:23:41.233 [main] INFO  com.cgpt.YebServerApplication - Starting YebServerApplication on DESKTOP-JGM0817 with PID 16184 (D:\workspace\e-office-master\e-office-server\target\classes started by Jay in D:\workspace\e-office-master\e-office-server)
+2023-06-25 22:23:41.237 [main] INFO  com.cgpt.YebServerApplication - No active profile set, falling back to default profiles: default
+2023-06-25 22:23:42.707 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-25 22:23:42.711 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-25 22:23:42.777 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 46ms. Found 0 Redis repository interfaces.
+2023-06-25 22:23:44.142 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-06-25 22:23:44.154 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:23:44.155 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-25 22:23:44.155 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-06-25 22:23:44.300 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-25 22:23:44.301 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2991 ms
+2023-06-25 22:23:47.504 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2023-06-25 22:23:47.511 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2023-06-25 22:23:48.081 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-06-25 22:23:48.123 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2023-06-25 22:23:48.168 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2023-06-25 22:23:48.719 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/login'], []
+2023-06-25 22:23:48.719 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/logout'], []
+2023-06-25 22:23:48.720 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/ws/**'], []
+2023-06-25 22:23:48.720 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/css/**'], []
+2023-06-25 22:23:48.720 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/js/**'], []
+2023-06-25 22:23:48.720 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/index.html'], []
+2023-06-25 22:23:48.720 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='favicon.ico'], []
+2023-06-25 22:23:48.720 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2023-06-25 22:23:48.720 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/webjars/**'], []
+2023-06-25 22:23:48.720 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2023-06-25 22:23:48.721 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/v2/api-docs/**'], []
+2023-06-25 22:23:48.721 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/captcha'], []
+2023-06-25 22:23:48.757 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b43f95c, org.springframework.security.web.context.SecurityContextPersistenceFilter@f1e1d66, org.springframework.security.web.header.HeaderWriterFilter@41433530, org.springframework.security.web.authentication.logout.LogoutFilter@782e0844, com.cgpt.config.jwt.JwtAuthenticationTokenFilter@af3295f, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@75312c94, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@24a1858a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@311453ab, org.springframework.security.web.session.SessionManagementFilter@53335328, org.springframework.security.web.access.ExceptionTranslationFilter@1b984ba5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@17c72ffa]
+2023-06-25 22:23:48.831 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:23:48.865 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-25 22:23:48.866 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-06-25 22:23:48.884 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-06-25 22:23:48.963 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-06-25 22:23:49.176 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateAdminUsingPUT_1
+2023-06-25 22:23:49.411 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllRolesUsingGET_1
+2023-06-25 22:23:49.435 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllPositionUsingGET_1
+2023-06-25 22:23:49.458 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSalaryUsingGET_1
+2023-06-25 22:23:49.485 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2023-06-25 22:23:49.486 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-06-25 22:23:49.487 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2023-06-25 22:23:49.514 [main] INFO  com.cgpt.YebServerApplication - Started YebServerApplication in 9.026 seconds (JVM running for 9.681)
+2023-06-25 22:23:50.243 [MessageBroker-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-06-25 22:24:48.177 [MessageBroker-3] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 1, completed tasks = 6]
+2023-06-25 22:27:39.474 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2023-06-25 22:27:39.474 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-06-25 22:27:39.475 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2023-06-25 22:27:39.699 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2023-06-25 22:27:39.700 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2023-06-25 22:27:39.703 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2023-06-25 22:27:39.703 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2023-06-25 22:27:39.730 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-06-25 22:27:39.734 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-06-25 22:27:43.234 [main] INFO  com.cgpt.YebServerApplication - Starting YebServerApplication on DESKTOP-JGM0817 with PID 18424 (D:\workspace\e-office-master\e-office-server\target\classes started by Jay in D:\workspace\e-office-master\e-office-server)
+2023-06-25 22:27:43.237 [main] INFO  com.cgpt.YebServerApplication - No active profile set, falling back to default profiles: default
+2023-06-25 22:27:44.619 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-25 22:27:44.622 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-25 22:27:44.684 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 43ms. Found 0 Redis repository interfaces.
+2023-06-25 22:27:46.015 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-06-25 22:27:46.025 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:27:46.025 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-25 22:27:46.026 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-06-25 22:27:46.165 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-25 22:27:46.165 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2856 ms
+2023-06-25 22:27:49.297 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2023-06-25 22:27:49.305 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2023-06-25 22:27:49.998 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-06-25 22:27:50.036 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2023-06-25 22:27:50.080 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2023-06-25 22:27:50.611 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/login'], []
+2023-06-25 22:27:50.611 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/logout'], []
+2023-06-25 22:27:50.611 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/ws/**'], []
+2023-06-25 22:27:50.611 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/css/**'], []
+2023-06-25 22:27:50.612 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/js/**'], []
+2023-06-25 22:27:50.612 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/index.html'], []
+2023-06-25 22:27:50.612 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='favicon.ico'], []
+2023-06-25 22:27:50.612 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2023-06-25 22:27:50.612 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/webjars/**'], []
+2023-06-25 22:27:50.612 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2023-06-25 22:27:50.612 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/v2/api-docs/**'], []
+2023-06-25 22:27:50.612 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/captcha'], []
+2023-06-25 22:27:50.646 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@49392256, org.springframework.security.web.context.SecurityContextPersistenceFilter@6b063695, org.springframework.security.web.header.HeaderWriterFilter@70efdd18, org.springframework.security.web.authentication.logout.LogoutFilter@1fb00a6d, com.cgpt.config.jwt.JwtAuthenticationTokenFilter@3595086b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@3fc4038f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1dbf727a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5a23b9d1, org.springframework.security.web.session.SessionManagementFilter@75312c94, org.springframework.security.web.access.ExceptionTranslationFilter@2569afda, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5c41f6a0]
+2023-06-25 22:27:50.706 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:27:50.738 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-25 22:27:50.739 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-06-25 22:27:50.761 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-06-25 22:27:50.842 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-06-25 22:27:51.058 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateAdminUsingPUT_1
+2023-06-25 22:27:51.283 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllRolesUsingGET_1
+2023-06-25 22:27:51.306 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllPositionUsingGET_1
+2023-06-25 22:27:51.332 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSalaryUsingGET_1
+2023-06-25 22:27:51.351 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2023-06-25 22:27:51.352 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-06-25 22:27:51.352 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2023-06-25 22:27:51.372 [main] INFO  com.cgpt.YebServerApplication - Started YebServerApplication in 8.958 seconds (JVM running for 9.614)
+2023-06-25 22:28:00.298 [MessageBroker-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-06-25 22:28:01.285 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-25 22:28:01.286 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-25 22:28:01.295 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 9 ms
+2023-06-25 22:28:01.419 [http-nio-8081-exec-1] INFO  com.cgpt.config.jwt.JwtAuthenticationTokenFilter - admin
+2023-06-25 22:28:50.093 [MessageBroker-3] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 6], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 3, completed tasks = 17]
+2023-06-25 22:35:31.432 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2023-06-25 22:35:31.432 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[1 sessions]]]]
+2023-06-25 22:35:31.433 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2023-06-25 22:35:31.652 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2023-06-25 22:35:31.653 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2023-06-25 22:35:31.659 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2023-06-25 22:35:31.660 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2023-06-25 22:35:31.804 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-06-25 22:35:31.808 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-06-25 22:35:37.453 [main] INFO  com.cgpt.YebServerApplication - Starting YebServerApplication on DESKTOP-JGM0817 with PID 10656 (D:\workspace\e-office-master\e-office-server\target\classes started by Jay in D:\workspace\e-office-master\e-office-server)
+2023-06-25 22:35:37.457 [main] INFO  com.cgpt.YebServerApplication - No active profile set, falling back to default profiles: default
+2023-06-25 22:35:39.041 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-25 22:35:39.044 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-25 22:35:39.100 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 39ms. Found 0 Redis repository interfaces.
+2023-06-25 22:35:40.576 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-06-25 22:35:40.587 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:35:40.587 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-25 22:35:40.588 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-06-25 22:35:40.743 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-25 22:35:40.743 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 3212 ms
+2023-06-25 22:35:43.895 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2023-06-25 22:35:43.904 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2023-06-25 22:35:44.781 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-06-25 22:35:44.824 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2023-06-25 22:35:44.880 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2023-06-25 22:35:45.437 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/login'], []
+2023-06-25 22:35:45.438 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/logout'], []
+2023-06-25 22:35:45.438 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/ws/**'], []
+2023-06-25 22:35:45.438 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/css/**'], []
+2023-06-25 22:35:45.438 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/js/**'], []
+2023-06-25 22:35:45.439 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/index.html'], []
+2023-06-25 22:35:45.439 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='favicon.ico'], []
+2023-06-25 22:35:45.439 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2023-06-25 22:35:45.439 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/webjars/**'], []
+2023-06-25 22:35:45.439 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2023-06-25 22:35:45.439 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/v2/api-docs/**'], []
+2023-06-25 22:35:45.439 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/captcha'], []
+2023-06-25 22:35:45.480 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@35b79b1f, org.springframework.security.web.context.SecurityContextPersistenceFilter@28dd8786, org.springframework.security.web.header.HeaderWriterFilter@7a2ffb0b, org.springframework.security.web.authentication.logout.LogoutFilter@71b32407, com.cgpt.config.jwt.JwtAuthenticationTokenFilter@27dc81be, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@247a8411, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3a0b6aff, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@664083f6, org.springframework.security.web.session.SessionManagementFilter@7c751692, org.springframework.security.web.access.ExceptionTranslationFilter@7d95a717, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@6d6d81c]
+2023-06-25 22:35:45.554 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:35:45.589 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-25 22:35:45.591 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-06-25 22:35:45.613 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-06-25 22:35:45.713 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-06-25 22:35:45.943 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateAdminUsingPUT_1
+2023-06-25 22:35:46.159 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllRolesUsingGET_1
+2023-06-25 22:35:46.182 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllPositionUsingGET_1
+2023-06-25 22:35:46.207 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSalaryUsingGET_1
+2023-06-25 22:35:46.226 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2023-06-25 22:35:46.226 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-06-25 22:35:46.227 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2023-06-25 22:35:46.250 [main] INFO  com.cgpt.YebServerApplication - Started YebServerApplication in 9.633 seconds (JVM running for 10.269)
+2023-06-25 22:35:50.267 [MessageBroker-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-06-25 22:35:55.783 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-25 22:35:55.783 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-25 22:35:55.795 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2023-06-25 22:35:55.877 [http-nio-8081-exec-2] INFO  com.cgpt.config.filter.CustomUrlDecisionManager - ROLE_LOGIN
+2023-06-25 22:35:55.960 [http-nio-8081-exec-1] INFO  com.cgpt.config.filter.CustomUrlDecisionManager - ROLE_manager
+2023-06-25 22:35:55.960 [http-nio-8081-exec-1] INFO  com.cgpt.config.filter.CustomUrlDecisionManager - ROLE_admin
+2023-06-25 22:35:55.960 [http-nio-8081-exec-1] INFO  com.cgpt.config.filter.CustomUrlDecisionManager - ROLE_admin
+2023-06-25 22:35:55.961 [http-nio-8081-exec-1] INFO  com.cgpt.config.filter.CustomUrlDecisionManager - ROLE_admin
+2023-06-25 22:36:44.881 [MessageBroker-4] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 6], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 3, completed tasks = 17]
+2023-06-25 22:38:13.289 [http-nio-8081-exec-7] INFO  com.cgpt.config.filter.CustomUrlDecisionManager - ROLE_LOGIN
+2023-06-25 22:38:22.925 [http-nio-8081-exec-9] INFO  com.cgpt.config.filter.CustomUrlDecisionManager - ROLE_LOGIN
+2023-06-25 22:42:28.438 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2023-06-25 22:42:28.439 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-06-25 22:42:28.439 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2023-06-25 22:42:28.668 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2023-06-25 22:42:28.669 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2023-06-25 22:42:28.673 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2023-06-25 22:42:28.673 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2023-06-25 22:42:28.816 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-06-25 22:42:28.823 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-06-25 22:42:34.385 [main] INFO  com.cgpt.YebServerApplication - Starting YebServerApplication on DESKTOP-JGM0817 with PID 18140 (D:\workspace\e-office-master\e-office-server\target\classes started by Jay in D:\workspace\e-office-master\e-office-server)
+2023-06-25 22:42:34.388 [main] INFO  com.cgpt.YebServerApplication - No active profile set, falling back to default profiles: default
+2023-06-25 22:42:35.808 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-25 22:42:35.811 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-25 22:42:35.870 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 40ms. Found 0 Redis repository interfaces.
+2023-06-25 22:42:37.255 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-06-25 22:42:37.267 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:42:37.267 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-25 22:42:37.267 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-06-25 22:42:37.408 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-25 22:42:37.408 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2951 ms
+2023-06-25 22:42:40.340 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2023-06-25 22:42:40.345 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2023-06-25 22:42:40.983 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-06-25 22:42:41.019 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2023-06-25 22:42:41.068 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2023-06-25 22:42:41.619 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/login'], []
+2023-06-25 22:42:41.619 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/logout'], []
+2023-06-25 22:42:41.619 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/ws/**'], []
+2023-06-25 22:42:41.619 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/css/**'], []
+2023-06-25 22:42:41.620 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/js/**'], []
+2023-06-25 22:42:41.620 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/index.html'], []
+2023-06-25 22:42:41.620 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='favicon.ico'], []
+2023-06-25 22:42:41.620 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2023-06-25 22:42:41.620 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/webjars/**'], []
+2023-06-25 22:42:41.620 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2023-06-25 22:42:41.620 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/v2/api-docs/**'], []
+2023-06-25 22:42:41.621 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/captcha'], []
+2023-06-25 22:42:41.664 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6ec77cab, org.springframework.security.web.context.SecurityContextPersistenceFilter@820b78a, org.springframework.security.web.header.HeaderWriterFilter@60688a97, org.springframework.security.web.authentication.logout.LogoutFilter@18ffc008, com.cgpt.config.jwt.JwtAuthenticationTokenFilter@2e4b5da1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7683ea43, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@140cfc5f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c7a1db6, org.springframework.security.web.session.SessionManagementFilter@247a8411, org.springframework.security.web.access.ExceptionTranslationFilter@43b74979, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7a74672]
+2023-06-25 22:42:41.739 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:42:41.780 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-25 22:42:41.781 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-06-25 22:42:41.805 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-06-25 22:42:41.892 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-06-25 22:42:42.105 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateAdminUsingPUT_1
+2023-06-25 22:42:42.319 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllRolesUsingGET_1
+2023-06-25 22:42:42.353 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllPositionUsingGET_1
+2023-06-25 22:42:42.378 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSalaryUsingGET_1
+2023-06-25 22:42:42.402 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2023-06-25 22:42:42.403 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-06-25 22:42:42.404 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2023-06-25 22:42:42.425 [main] INFO  com.cgpt.YebServerApplication - Started YebServerApplication in 8.803 seconds (JVM running for 9.441)
+2023-06-25 22:42:50.431 [MessageBroker-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-06-25 22:42:56.804 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-25 22:42:56.804 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-25 22:42:56.816 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2023-06-25 22:43:04.730 [http-nio-8081-exec-4] INFO  com.cgpt.config.filter.CustomFilter - menu = /system/cfg/**
+2023-06-25 22:43:04.731 [http-nio-8081-exec-4] INFO  com.cgpt.config.filter.CustomFilter - str = [Ljava.lang.String;@19d75211
+2023-06-25 22:43:41.076 [MessageBroker-8] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[1 current WS(1)-HttpStream(0)-HttpPoll(0), 1 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(1)-CONNECTED(1)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 6, active threads = 0, queued tasks = 0, completed tasks = 6], outboundChannel[pool size = 1, active threads = 0, queued tasks = 0, completed tasks = 1], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 3, completed tasks = 14]
+2023-06-25 22:43:59.759 [http-nio-8081-exec-5] INFO  com.cgpt.config.filter.CustomFilter - menu = /system/basic/**
+2023-06-25 22:43:59.759 [http-nio-8081-exec-5] INFO  com.cgpt.config.filter.CustomFilter - str = [Ljava.lang.String;@6a490fb6
+2023-06-25 22:44:00.078 [http-nio-8081-exec-4] INFO  com.cgpt.config.filter.CustomFilter - menu = /system/basic/**
+2023-06-25 22:44:00.079 [http-nio-8081-exec-4] INFO  com.cgpt.config.filter.CustomFilter - str = [Ljava.lang.String;@2a01a3e4
+2023-06-25 22:45:51.243 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopping...
+2023-06-25 22:45:51.243 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-06-25 22:45:51.243 [SpringContextShutdownHook] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Stopped.
+2023-06-25 22:45:51.453 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'brokerChannelExecutor'
+2023-06-25 22:45:51.454 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Shutting down ExecutorService 'messageBrokerTaskScheduler'
+2023-06-25 22:45:51.459 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientOutboundChannelExecutor'
+2023-06-25 22:45:51.459 [SpringContextShutdownHook] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'clientInboundChannelExecutor'
+2023-06-25 22:45:51.596 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closing ...
+2023-06-25 22:45:51.602 [SpringContextShutdownHook] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2023-06-25 22:45:57.221 [main] INFO  com.cgpt.YebServerApplication - Starting YebServerApplication on DESKTOP-JGM0817 with PID 16288 (D:\workspace\e-office-master\e-office-server\target\classes started by Jay in D:\workspace\e-office-master\e-office-server)
+2023-06-25 22:45:57.224 [main] INFO  com.cgpt.YebServerApplication - No active profile set, falling back to default profiles: default
+2023-06-25 22:45:58.682 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode!
+2023-06-25 22:45:58.685 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2023-06-25 22:45:58.745 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42ms. Found 0 Redis repository interfaces.
+2023-06-25 22:46:00.150 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8081 (http)
+2023-06-25 22:46:00.165 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:46:00.166 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2023-06-25 22:46:00.166 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.35]
+2023-06-25 22:46:00.296 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-06-25 22:46:00.296 [main] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2981 ms
+2023-06-25 22:46:03.614 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientInboundChannelExecutor'
+2023-06-25 22:46:03.622 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'clientOutboundChannelExecutor'
+2023-06-25 22:46:04.230 [main] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2023-06-25 22:46:04.264 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskScheduler - Initializing ExecutorService 'messageBrokerTaskScheduler'
+2023-06-25 22:46:04.320 [main] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'brokerChannelExecutor'
+2023-06-25 22:46:04.961 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/login'], []
+2023-06-25 22:46:04.961 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/logout'], []
+2023-06-25 22:46:04.961 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/ws/**'], []
+2023-06-25 22:46:04.962 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/css/**'], []
+2023-06-25 22:46:04.962 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/js/**'], []
+2023-06-25 22:46:04.962 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/index.html'], []
+2023-06-25 22:46:04.962 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='favicon.ico'], []
+2023-06-25 22:46:04.962 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-ui.html'], []
+2023-06-25 22:46:04.962 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/webjars/**'], []
+2023-06-25 22:46:04.962 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/swagger-resources/**'], []
+2023-06-25 22:46:04.962 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/v2/api-docs/**'], []
+2023-06-25 22:46:04.963 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: Ant [pattern='/captcha'], []
+2023-06-25 22:46:05.004 [main] INFO  o.s.security.web.DefaultSecurityFilterChain - Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67376bae, org.springframework.security.web.context.SecurityContextPersistenceFilter@4a0ee0ba, org.springframework.security.web.header.HeaderWriterFilter@598f1faf, org.springframework.security.web.authentication.logout.LogoutFilter@21be80f6, com.cgpt.config.jwt.JwtAuthenticationTokenFilter@7d5a0b14, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1812b564, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@820b78a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6d6d81c, org.springframework.security.web.session.SessionManagementFilter@5d2bc446, org.springframework.security.web.access.ExceptionTranslationFilter@6c4e486e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@69a3944]
+2023-06-25 22:46:05.070 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8081"]
+2023-06-25 22:46:05.104 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8081 (http) with context path ''
+2023-06-25 22:46:05.106 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Context refreshed
+2023-06-25 22:46:05.126 [main] INFO  s.d.s.web.plugins.DocumentationPluginsBootstrapper - Found 1 custom documentation plugin(s)
+2023-06-25 22:46:05.221 [main] INFO  s.d.spring.web.scanners.ApiListingReferenceScanner - Scanning for api listing references
+2023-06-25 22:46:05.516 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: updateAdminUsingPUT_1
+2023-06-25 22:46:05.748 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllRolesUsingGET_1
+2023-06-25 22:46:05.769 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllPositionUsingGET_1
+2023-06-25 22:46:05.794 [main] INFO  s.d.s.w.r.operation.CachingOperationNameGenerator - Generating unique operation named: getAllSalaryUsingGET_1
+2023-06-25 22:46:05.812 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Starting...
+2023-06-25 22:46:05.812 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [DefaultSubscriptionRegistry[cache[0 destination(s)], registry[0 sessions]]]]
+2023-06-25 22:46:05.813 [main] INFO  o.s.m.simp.broker.SimpleBrokerMessageHandler - Started.
+2023-06-25 22:46:05.834 [main] INFO  com.cgpt.YebServerApplication - Started YebServerApplication in 9.451 seconds (JVM running for 10.088)
+2023-06-25 22:46:10.252 [MessageBroker-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2023-06-25 22:46:18.730 [http-nio-8081-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-25 22:46:18.731 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-06-25 22:46:18.743 [http-nio-8081-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 12 ms
+2023-06-25 22:46:18.952 [http-nio-8081-exec-1] INFO  com.cgpt.config.filter.CustomFilter - menu = /system/cfg/**
+2023-06-25 22:46:18.953 [http-nio-8081-exec-1] INFO  com.cgpt.config.filter.CustomFilter - str = ROLE_manager
+2023-06-25 22:46:18.954 [http-nio-8081-exec-1] INFO  com.cgpt.config.filter.CustomFilter - str = ROLE_admin
+2023-06-25 22:46:18.954 [http-nio-8081-exec-1] INFO  com.cgpt.config.filter.CustomFilter - str = ROLE_test
+2023-06-25 22:46:19.797 [http-nio-8081-exec-3] INFO  com.cgpt.config.filter.CustomFilter - menu = /system/cfg/**
+2023-06-25 22:46:19.797 [http-nio-8081-exec-3] INFO  com.cgpt.config.filter.CustomFilter - str = ROLE_manager
+2023-06-25 22:46:19.798 [http-nio-8081-exec-3] INFO  com.cgpt.config.filter.CustomFilter - str = ROLE_admin
+2023-06-25 22:46:19.798 [http-nio-8081-exec-3] INFO  com.cgpt.config.filter.CustomFilter - str = ROLE_test
+2023-06-25 22:46:20.154 [http-nio-8081-exec-5] INFO  com.cgpt.config.filter.CustomFilter - menu = /system/basic/**
+2023-06-25 22:46:20.155 [http-nio-8081-exec-5] INFO  com.cgpt.config.filter.CustomFilter - str = ROLE_admin
+2023-06-25 22:46:20.155 [http-nio-8081-exec-5] INFO  com.cgpt.config.filter.CustomFilter - str = ROLE_manager
+2023-06-25 22:46:20.156 [http-nio-8081-exec-5] INFO  com.cgpt.config.filter.CustomFilter - str = ROLE_test
+2023-06-25 22:46:20.352 [http-nio-8081-exec-6] INFO  com.cgpt.config.filter.CustomFilter - menu = /system/basic/**
+2023-06-25 22:46:20.352 [http-nio-8081-exec-6] INFO  com.cgpt.config.filter.CustomFilter - str = ROLE_admin
+2023-06-25 22:46:20.352 [http-nio-8081-exec-6] INFO  com.cgpt.config.filter.CustomFilter - str = ROLE_manager
+2023-06-25 22:46:20.352 [http-nio-8081-exec-6] INFO  com.cgpt.config.filter.CustomFilter - str = ROLE_test
+2023-06-25 22:47:04.319 [MessageBroker-1] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 12, active threads = 0, queued tasks = 0, completed tasks = 12], outboundChannel[pool size = 2, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 4, completed tasks = 17]
+2023-06-25 23:17:04.324 [MessageBroker-6] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 12], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 4, completed tasks = 702]
+2023-06-25 23:47:04.328 [MessageBroker-5] INFO  o.s.web.socket.config.WebSocketMessageBrokerStats - WebSocketSession[2 current WS(2)-HttpStream(0)-HttpPoll(0), 2 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(2)-CONNECTED(2)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 12], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 2], sockJsScheduler[pool size = 8, active threads = 1, queued tasks = 4, completed tasks = 1387]

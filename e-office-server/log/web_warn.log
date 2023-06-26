@@ -1,0 +1,58 @@
+2023-06-25 22:07:39.097 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.cgpt.pojo.MailLog".
+2023-06-25 22:07:42.715 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:07:42.900 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.time.LocalDate[]
+2023-06-25 22:07:42.939 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:07:42.985 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:07:42.999 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:08:13.133 [http-nio-8081-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [278] milliseconds.
+2023-06-25 22:15:22.029 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.cgpt.pojo.MailLog".
+2023-06-25 22:15:25.515 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:15:25.695 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.time.LocalDate[]
+2023-06-25 22:15:25.727 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:15:25.767 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:15:25.777 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:15:45.237 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.cgpt.pojo.MailLog".
+2023-06-25 22:15:49.288 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:15:49.547 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.time.LocalDate[]
+2023-06-25 22:15:49.596 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:15:49.636 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:15:49.650 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:16:01.126 [http-nio-8081-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [259] milliseconds.
+2023-06-25 22:21:32.529 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.cgpt.pojo.MailLog".
+2023-06-25 22:21:36.370 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:21:36.557 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.time.LocalDate[]
+2023-06-25 22:21:36.591 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:21:36.629 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:21:36.641 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:23:45.322 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.cgpt.pojo.MailLog".
+2023-06-25 22:23:49.143 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:23:49.343 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.time.LocalDate[]
+2023-06-25 22:23:49.378 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:23:49.419 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:23:49.431 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:27:47.243 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.cgpt.pojo.MailLog".
+2023-06-25 22:27:51.024 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:27:51.225 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.time.LocalDate[]
+2023-06-25 22:27:51.255 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:27:51.287 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:27:51.299 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:35:41.857 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.cgpt.pojo.MailLog".
+2023-06-25 22:35:45.906 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:35:46.090 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.time.LocalDate[]
+2023-06-25 22:35:46.125 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:35:46.164 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:35:46.177 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:38:13.531 [http-nio-8081-exec-8] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [237] milliseconds.
+2023-06-25 22:42:38.500 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.cgpt.pojo.MailLog".
+2023-06-25 22:42:42.071 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:42:42.260 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.time.LocalDate[]
+2023-06-25 22:42:42.290 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:42:42.326 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:42:42.336 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:42:57.107 [http-nio-8081-exec-1] WARN  org.apache.catalina.util.SessionIdGeneratorBase - Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [234] milliseconds.
+2023-06-25 22:46:01.474 [main] WARN  c.b.mybatisplus.core.metadata.TableInfoHelper - Can not find table primary key in Class: "com.cgpt.pojo.MailLog".
+2023-06-25 22:46:05.484 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:46:05.682 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.time.LocalDate[]
+2023-06-25 22:46:05.719 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:46:05.753 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
+2023-06-25 22:46:05.764 [main] WARN  s.d.s.w.readers.parameter.ParameterDataTypeReader - Trying to infer dataType java.lang.Integer[]
